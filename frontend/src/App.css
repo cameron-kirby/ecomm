@@ -1,3 +1,16 @@
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* Variables & Root Styles */
+:root {
+    --text-primary: #0D0E43;
+    --text-sub: #8A8FB9;
+    --bg-accent: #F2F0FF;
+    --white: #F1F1F1;
+    --violet: #7E33E0;
+    --red: #FB2E86;
+}
 .App {
-    text-align: center;
+    font-family: 'Lato', sans-serif;
 }
